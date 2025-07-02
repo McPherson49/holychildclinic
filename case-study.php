@@ -1,39 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from html.awaikenthemes.com/ferlix/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 May 2025 13:01:44 GMT -->
-<head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-    <title>Ferlix - IVF & Fertility Clinic HTML Template</title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
-	<link href="css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
-	<link href="css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="css/mousecursor.css">
-	<!-- Main Custom Css -->
-	<link href="css/custom.css" rel="stylesheet" media="screen">
+<head> 
+    <?php include 'assets/header_link.php'; ?>
 </head>
 <body>
 
@@ -54,9 +23,9 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+912588520">+91-258-8520</a></li>
-                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@domainname.com">info@domainname.com</a></li>
-                            <li class="hide-mobile"><img src="images/icon-location-accent.svg" alt="">123 High Street, London, W1, UK</li>
+                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+2347056260569">+2347056260569</a></li>
+                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></li>
+                            <li class="hide-mobile"><img src="images/icon-location-accent.svg" alt="">32, Oduduwa Way, GRA lkeja, Lagos State, Nigeria</li>
                         </ul>
                     </div>
                     <!-- Topbar Contact Information End -->
@@ -147,11 +116,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Our <span>team</span></h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Case <span>study</span></h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.25s">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">team</li>
+                                <li class="breadcrumb-item active" aria-current="page">Case study</li>
                             </ol>
                         </nav>
                     </div>
@@ -162,269 +131,169 @@
     </div>
     <!-- Page Header Section End -->
 
-    <!-- Page Team Start -->
-    <div class="page-team">
+    <!-- Page Case Study Start -->
+    <div class="page-case-study">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Brooklyn Simmons</a></h3>
-                            <p>Chief Fertility Specialist</p>
-                        </div>
-                        <!-- Team Content End -->
-                        
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-1.png" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Case Study Item Start -->
+                    <div class="case-study-item wow fadeInUp">
+                        <!-- Case Study Image Start -->
+                        <div class="case-study-image">
+                            <figure class="image-anime">
+                                <img src="images/case-study-1.jpg" alt="">
                             </figure>
-                        </div>
-                        <!-- team Image End -->
 
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
+                            <!-- Case Study Button Start -->
+                            <div class="case-study-btn">
+                                <a href="case-study-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <!-- Case Study Button End -->
                         </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
+                        <!-- Case Study Image End -->
                 
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Leslie Alexander</a></h3>
-                            <p>Sr. IVF Specialist </p>
+                        <!-- Case Study Content Start -->
+                        <div class="case-study-item-content">
+                            <h3><a href="case-study-single.html">Understanding IVF A Step-by-Step Guide for Beginners</a></h3>
                         </div>
-                        <!-- Team Content End -->
-
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-2.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
+                        <!-- Case Study Content End -->                
                     </div>
-                    <!-- Team Item End -->
+                    <!-- Case Study Item End -->
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Ronald Richards</a></h3>
-                            <p>Embryologist </p>
-                        </div>
-                        <!-- Team Content End -->
-
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-3.png" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Case Study Item Start -->
+                    <div class="case-study-item wow fadeInUp" data-wow-delay="0.2s">
+                        <!-- Case Study Image Start -->
+                        <div class="case-study-image">
+                            <figure class="image-anime">
+                                <img src="images/case-study-2.jpg" alt="">
                             </figure>
-                        </div>
-                        <!-- team Image End -->
 
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
+                            <!-- Case Study Button Start -->
+                            <div class="case-study-btn">
+                                <a href="case-study-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <!-- Case Study Button End -->
                         </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Darlene Robertson</a></h3>
-                            <p>IVF Coordinator</p>
-                        </div>
-                        <!-- Team Content End -->
-
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-4.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Ava Mitchell</a></h3>
-                            <p>Fertility Consultant</p>
-                        </div>
-                        <!-- Team Content End -->
-                        
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-5.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
+                        <!-- Case Study Image End -->
                 
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Liam Carter</a></h3>
-                            <p>Patient Counselor </p>
+                        <!-- Case Study Content Start -->
+                        <div class="case-study-item-content">
+                            <h3><a href="case-study-single.html">IVF Demystified One Couple's Path to Parenthood</a></h3>
                         </div>
-                        <!-- Team Content End -->
-
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-6.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
+                        <!-- Case Study Content End -->                
                     </div>
-                    <!-- Team Item End -->
+                    <!-- Case Study Item End -->
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Sophie Reynolds</a></h3>
-                            <p>Clinic Administrator</p>
-                        </div>
-                        <!-- Team Content End -->
-
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-7.png" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Case Study Item Start -->
+                    <div class="case-study-item wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- Case Study Image Start -->
+                        <div class="case-study-image">
+                            <figure class="image-anime">
+                                <img src="images/case-study-3.jpg" alt="">
                             </figure>
-                        </div>
-                        <!-- team Image End -->
 
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
+                            <!-- Case Study Button Start -->
+                            <div class="case-study-btn">
+                                <a href="case-study-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <!-- Case Study Button End -->
                         </div>
-                        <!-- Team Social List End -->
+                        <!-- Case Study Image End -->
+                
+                        <!-- Case Study Content Start -->
+                        <div class="case-study-item-content">
+                            <h3><a href="case-study-single.html">The IVF Experience Challenges, Choices, and Success</a></h3>
+                        </div>
+                        <!-- Case Study Content End -->                
                     </div>
-                    <!-- Team Item End -->
+                    <!-- Case Study Item End -->
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3><a href="team-single.html">Ethan Brooks</a></h3>
-                            <p>Patient Relationship Manager</p>
-                        </div>
-                        <!-- Team Content End -->
-
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <figure>
-                                <img src="images/team-8.png" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Case Study Item Start -->
+                    <div class="case-study-item wow fadeInUp" data-wow-delay="0.6s">
+                        <!-- Case Study Image Start -->
+                        <div class="case-study-image">
+                            <figure class="image-anime">
+                                <img src="images/case-study-4.jpg" alt="">
                             </figure>
-                        </div>
-                        <!-- team Image End -->
 
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
+                            <!-- Case Study Button Start -->
+                            <div class="case-study-btn">
+                                <a href="case-study-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <!-- Case Study Button End -->
                         </div>
-                        <!-- Team Social List End -->
+                        <!-- Case Study Image End -->
+                
+                        <!-- Case Study Content Start -->
+                        <div class="case-study-item-content">
+                            <h3><a href="case-study-single.html">IVF Explained A Case Study in Modern Fertility</a></h3>
+                        </div>
+                        <!-- Case Study Content End -->                
                     </div>
-                    <!-- Team Item End -->
+                    <!-- Case Study Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Case Study Item Start -->
+                    <div class="case-study-item wow fadeInUp" data-wow-delay="0.8s">
+                        <!-- Case Study Image Start -->
+                        <div class="case-study-image">
+                            <figure class="image-anime">
+                                <img src="images/case-study-5.jpg" alt="">
+                            </figure>
+
+                            <!-- Case Study Button Start -->
+                            <div class="case-study-btn">
+                                <a href="case-study-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <!-- Case Study Button End -->
+                        </div>
+                        <!-- Case Study Image End -->
+                
+                        <!-- Case Study Content Start -->
+                        <div class="case-study-item-content">
+                            <h3><a href="case-study-single.html">One Egg at a Time The IVF Process Through Real Eyes</a></h3>
+                        </div>
+                        <!-- Case Study Content End -->                
+                    </div>
+                    <!-- Case Study Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Case Study Item Start -->
+                    <div class="case-study-item wow fadeInUp" data-wow-delay="1s">
+                        <!-- Case Study Image Start -->
+                        <div class="case-study-image">
+                            <figure class="image-anime">
+                                <img src="images/case-study-6.jpg" alt="">
+                            </figure>
+
+                            <!-- Case Study Button Start -->
+                            <div class="case-study-btn">
+                                <a href="case-study-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <!-- Case Study Button End -->
+                        </div>
+                        <!-- Case Study Image End -->
+                
+                        <!-- Case Study Content Start -->
+                        <div class="case-study-item-content">
+                            <h3><a href="case-study-single.html">A Beginner's IVF Story From Infertility to Family</a></h3>
+                        </div>
+                        <!-- Case Study Content End -->                
+                    </div>
+                    <!-- Case Study Item End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page Team End -->
+    <!-- Page Case Study End -->
 
     <!-- Footer Start -->
     <footer class="main-footer">
@@ -582,5 +451,5 @@
     <script src="js/function.js"></script>
 </body>
 
-<!-- Mirrored from html.awaikenthemes.com/ferlix/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 May 2025 13:01:50 GMT -->
+<!-- Mirrored from html.awaikenthemes.com/ferlix/case-study.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 May 2025 13:01:34 GMT -->
 </html>

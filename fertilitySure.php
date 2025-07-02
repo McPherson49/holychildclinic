@@ -1,39 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from html.awaikenthemes.com/ferlix/service-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 May 2025 13:01:01 GMT -->
-<head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-    <title>Ferlix - IVF & Fertility Clinic HTML Template</title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
-	<link href="css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
-	<link href="css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="css/mousecursor.css">
-	<!-- Main Custom Css -->
-	<link href="css/custom.css" rel="stylesheet" media="screen">
+<head> 
+    <?php include 'assets/header_link.php'; ?>
 </head>
 <body>
 
@@ -54,8 +23,8 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+912588520">+91-258-8520</a></li>
-                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@domainname.com">info@domainname.com</a></li>
+                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+912588520">+2347056260569</a></li>
+                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></li>
                             <li class="hide-mobile"><img src="images/icon-location-accent.svg" alt="">123 High Street, London, W1, UK</li>
                         </ul>
                     </div>
@@ -200,7 +169,7 @@
                                         <h3>Call Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="tel:254882963">+91-254-882-963</a></p>
+                                        <p><a href="tel:254882963">+2347056260569</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->
@@ -212,7 +181,7 @@
                                         <h3>E-mail Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                        <p><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->
@@ -644,5 +613,4 @@
     <script src="js/function.js"></script>
 </body>
 
-<!-- Mirrored from html.awaikenthemes.com/ferlix/service-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 May 2025 13:01:14 GMT -->
 </html>

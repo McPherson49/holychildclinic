@@ -53,8 +53,8 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+912588520">+91-258-8520</a></li>
-                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@domainname.com">info@domainname.com</a></li>
+                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+912588520">+2347056260569</a></li>
+                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></li>
                             <li class="hide-mobile"><img src="images/icon-location-accent.svg" alt="">123 High Street, London, W1, UK</li>
                         </ul>
                     </div>
@@ -254,7 +254,7 @@
                             </div>
                             <div class="hero-info-body">
                                 <p>Book your IVF consultation today with our trusted fertility experts.</p>
-                                <h3><a href="tel:+912588520">+91-258-8520</a></h3>
+                                <h3><a href="tel:+912588520">+2347056260569</a></h3>
                             </div>
                             <div class="hero-info-btn">
                                 <a href="contact.html" class="btn-default btn-highlighted">24/7 For Emergencies</a>
@@ -1246,7 +1246,7 @@
                                     <h3>Call Us:</h3>
                                 </div>
                                 <div class="cta-contact-item-content">
-                                    <p><a href="tel:254882963">+91-254-882-963</a></p>
+                                    <p><a href="tel:254882963">+2347056260569</a></p>
                                 </div>
                             </div>
                             <!-- Faqs Contact Item End -->
@@ -1258,7 +1258,7 @@
                                     <h3>E-mail Us:</h3>
                                 </div>
                                 <div class="cta-contact-item-content">
-                                    <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                    <p><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></p>
                                 </div>
                             </div>
                             <!-- Faqs Contact Item End -->
@@ -1683,7 +1683,7 @@
                                         <h3>Call Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="tel:254882963">+91-254-882-963</a></p>
+                                        <p><a href="tel:254882963">+2347056260569</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->
@@ -1695,7 +1695,7 @@
                                         <h3>E-mail Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                        <p><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->

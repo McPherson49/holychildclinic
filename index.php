@@ -1,39 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-
-<head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-    <title>Holy Child Clinic - IVF & Fertility Clinic</title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
-	<link href="css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
-	<link href="css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="css/mousecursor.css">
-	<!-- Main Custom Css -->
-	<link href="css/custom.css" rel="stylesheet" media="screen">
+<head> 
+    <?php include 'assets/header_link.php'; ?>
 </head>
 <body>
 
@@ -47,90 +16,11 @@
 	<!-- Preloader End -->
 
     <!-- Topbar Section Start -->
-    <div class="topbar">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-9">
-                    <!-- Topbar Contact Information Start -->
-                    <div class="topbar-contact-info">
-                        <ul>
-                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+912588520">+91-258-8520</a></li>
-                            <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@domainname.com">info@domainname.com</a></li>
-                            <li class="hide-mobile"><img src="images/icon-location-accent.svg" alt="">123 High Street, London, W1, UK</li>
-                        </ul>
-                    </div>
-                    <!-- Topbar Contact Information End -->
-                </div>
-
-                <div class="col-lg-3">
-                    <!-- Topbar Social Links Start -->
-                    <div class="topbar-social-links">
-                        <ul>
-                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- Topbar Social Links End -->
-                </div>
-            </div>
-        </div>
-    </div>
+        <?php  include 'assets/topbar.php'; ?>
     <!-- Topbar Section End -->
 
     <!-- Header Start -->
-	<header class="main-header bg-section">
-		<div class="header-sticky">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container-fluid">
-					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.php">
-						<img src="images/logo.svg" alt="Logo">
-					</a>
-					<!-- Logo End -->
-
-					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
-                                    <ul>                                        
-                                        <li class="nav-item"><a class="nav-link" href="service-single.php">Service Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog-single.php">Blog Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="case-study.php">Case study</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="case-study-single.php">Case study details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.php">Our Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.php">Team Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="pricing.php">Pricing Plan</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonials.php">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="image-gallery.php">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.php">Video Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.php">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.php">404</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="book-appointment.php">Book an Appointment</a></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Header Btn Start -->
-                        <div class="header-btn">
-                            <a href="book-appointment.php" class="btn-default btn-highlighted">Book an Appointment</a>
-                        </div>
-                        <!-- Header Btn End -->                      
-					</div>
-					<!-- Main Menu End -->
-					<div class="navbar-toggle"></div>
-				</div>
-			</nav>
-			<div class="responsive-menu"></div>
-		</div>
-	</header>
+        <?php include 'assets/header.php'; ?>
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
@@ -281,7 +171,7 @@
                             </div>
                             <div class="hero-info-body">
                                 <p>Providing expert IVF care locally with technology compassionate specialists.</p>
-                                <h3>123 Fertility Lane, Lorem City, 45678</h3>
+                                <h3>32, Oduduwa Way, GRA lkeja, Lagos State, Nigeria</h3>
                             </div>
                             <div class="hero-info-btn">
                                 <a href="contact.php" class="btn-default btn-highlighted">24/7 For Emergencies</a>
@@ -1160,7 +1050,7 @@
                                     <h3>Call Us:</h3>
                                 </div>
                                 <div class="cta-contact-item-content">
-                                    <p><a href="tel:254882963">+91-254-882-963</a></p>
+                                    <p><a href="tel:+2347056260569">+2347056260569</a></p>
                                 </div>
                             </div>
                             <!-- Faqs Contact Item End -->
@@ -1172,7 +1062,7 @@
                                     <h3>E-mail Us:</h3>
                                 </div>
                                 <div class="cta-contact-item-content">
-                                    <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                    <p><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></p>
                                 </div>
                             </div>
                             <!-- Faqs Contact Item End -->
@@ -1184,7 +1074,7 @@
                                     <h3>Visit Us:</h3>
                                 </div>
                                 <div class="cta-contact-item-content">
-                                    <p>123 High Street, London, W1, UK</p>
+                                    <p>32, Oduduwa Way, GRA lkeja, Lagos State, Nigeria</p>
                                 </div>
                             </div>
                             <!-- Faqs Contact Item End -->
@@ -1227,9 +1117,9 @@
                         <!-- Section Title Content End -->
                         
                         <!-- Section Button Start -->
-                        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
                             <a href="team.php" class="btn-default">View all member</a>
-                        </div>
+                        </div> -->
                         <!-- Section Button End -->
                     </div>
                     <!-- Section Content Button End -->
@@ -1579,7 +1469,7 @@
                                         <h3>Call Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="tel:254882963">+91-254-882-963</a></p>
+                                        <p><a href="tel:254882963">+2347056260569</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->
@@ -1591,7 +1481,7 @@
                                         <h3>E-mail Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                        <p><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->
@@ -1782,135 +1672,10 @@
     <!-- Our Appointment Section End -->
 
     <!-- Footer Start -->
-    <footer class="main-footer">
-        <div class="main-footer-box bg-section dark-section">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <!-- Footer Header Start -->
-                        <div class="footer-header">
-                            <!-- Section Title Start -->
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Schedule your consultation today!</h2>
-                                <p>Book your consultation with our fertility experts the first step toward your parenthood journey.</p>
-                            </div>
-                            <!-- Section Title End -->
-    
-                            <!-- Book Consult Circle Start -->
-                            <div class="book-consult-circle accent-circle">
-                                <a href="contact.php"><img src="images/book-consultation-circle.svg" alt=""></a>
-                            </div>
-                            <!-- Book Consult Circle End -->
-                        </div>
-                        <!-- Footer Header End -->                 
-                    </div>
-                </div>
-    
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <!-- About Footer Start -->
-                        <div class="about-footer">
-                            <!-- Footer Logo Start -->
-                            <div class="footer-logo">
-                                <img src="images/footer-logo.svg" alt="">
-                            </div>
-                            <!-- Footer Logo End -->
-    
-                            <!-- About Footer Content Start -->
-                            <div class="about-footer-content">
-                                <p>we are dedicated to helping individuals and couples achieve dream.</p>
-                            </div>           
-                            <!-- About Footer Content End -->
-                                
-                            <!-- Footer Social Link Start -->
-                            <div class="footer-social-links">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Footer Social Link End -->
-                        </div>
-                        <!-- About Footer End -->
-                    </div>
-
-                    <div class="col-lg-2 col-md-6">
-                        <!-- Footer Links Start -->
-                        <div class="footer-links">
-                            <h3>quick link</h3>
-                            <ul>
-                                <li><a href="index-2.php">Home</a></li>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="services.php">services</a></li>
-                                <li><a href="contact.php">Contact us</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Links End -->
-                    </div>
-
-                    <div class="col-lg-2 col-md-6">
-                        <!-- Footer Links Start -->
-                        <div class="footer-links">
-                            <h3>Services</h3>
-                            <ul>
-                                <li><a href="service-single.php">Egg Freezing</a></li>
-                                <li><a href="service-single.php">Fertility Preservation</a></li>
-                                <li><a href="service-single.php">Surrogacy Support</a></li>
-                                <li><a href="service-single.php">Ovulation Induction</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Links End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Footer Copyright Text Start -->
-                    <div class="footer-copyright-text">
-                        <p>Copyright © 2025 All Rights Reserved.</p>
-                    </div>
-                    <!-- Footer Copyright Text End -->     
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include 'assets/footer.php'; ?>
     <!-- Footer End -->
 
-    <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
-    <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
-    <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
-    <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
-    <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
-    <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+    <?php include 'assets/scripts.php'; ?>
 </body>
 
 </html>
