@@ -52,7 +52,7 @@
     "description": "IVF & Fertility Clinic offering compassionate reproductive healthcare services.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "32, Oduduwa Way, GRA lkeja, Lagos State, Nigeria",
+      "streetAddress": "Oduduwa Way, GRA lkeja, Lagos State, Nigeria",
       "addressLocality": "Ikeja",
       "addressRegion": "Lagos state",
       "postalCode": "100001",

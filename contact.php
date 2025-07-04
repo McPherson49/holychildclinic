@@ -98,7 +98,7 @@
                 <div class="contact-form-section">
                     <!-- Google Map Start -->
                     <div class="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.2651663032736!2d3.353030315793027!3d6.577279295249592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dca02aee4c3%3A0xf0931aeeae6e5bd0!2s32%20Oduduwa%20Way%2C%20Ikeja%20GRA%2C%20Ikeja%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1628765432100!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5965576275066!2d3.352965975680149!3d6.5724933225906375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b920c75795fe9%3A0xf5f9ac428e24631c!2sOduduwa%20Way%2C%20Ikeja%20GRA%2C%20Ikeja%20101233%2C%20Lagos!5e0!3m2!1sen!2sng!4v1751644662635!5m2!1sen!2sng"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- Google Map End -->
 
