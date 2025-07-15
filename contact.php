@@ -115,7 +115,7 @@
                         <!-- Contact Form Start -->
                         <div class="contact-form">
                             <!-- Contact Form Start -->
-                            <form id="contactForm" action="send-mail.php" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
+                            <form action="sendmail.php" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="row">                                
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="fname" class="form-control" id="fname" placeholder="First name" required>
@@ -137,13 +137,18 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
 
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
                                     <div class="form-group col-md-12 mb-5">
                                         <textarea name="message" class="form-control" id="message" rows="3" placeholder="Write Message..."></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-default">submit message</button>
+                                        <button type="submit" name="submit" class="btn-default">Submit</button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
