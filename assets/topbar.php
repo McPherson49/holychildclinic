@@ -5,7 +5,7 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+2347056260569">+2347056260569</a></li>
+                            <li><img src="images/icon-phone-accent.svg" alt=""><a href="tel:+2349025221711">+2349025221711</a></li>
                             <li><img src="images/icon-mail-accent.svg" alt=""><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></li>
                             <li class="hide-mobile"><img src="images/icon-location-accent.svg" alt="">Oduduwa Way, GRA lkeja, Lagos State, Nigeria</li>
                         </ul>

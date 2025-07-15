@@ -82,7 +82,7 @@
                                         <h3>Call Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="tel:254882963">+2347056260569</a></p>
+                                        <p><a href="tel:254882963">+2349025221711</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->

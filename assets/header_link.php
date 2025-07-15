@@ -58,6 +58,6 @@
       "postalCode": "100001",
       "addressCountry": "NG"
     },
-    "telephone": "+2347056260569"
+    "telephone": "+2349025221711"
   }
   </script>

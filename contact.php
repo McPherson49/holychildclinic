@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -84,7 +86,7 @@
                         </div>
                         <div class="hero-info-body">
                             <p>Reach out for personalized IVF support.</p>
-                            <h3><a href="tel:+912588520">+2347056260569</a></h3>
+                            <h3><a href="tel:+912588520">+2349025221711</a></h3>
                             <h3><a href="mailto:info@holychildclinic.com">info@holychildclinic.com</a></h3>
                         </div>
                     </div>

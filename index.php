@@ -46,7 +46,7 @@
                                             <!-- Section Title Start -->
                                             <div class="section-title">
                                                 <h3 class="wow fadeInUp">Welcome to Holy Child Clinic</h3>
-                                                <h1 class="text-anime-style-2" data-cursor="-opaque">Helping you build of the <span>family of your dreams!</span></h1>
+                                                <h1 class="text-anime-style-2" data-cursor="-opaque">Helping you build the <span>family of your dreams!</span></h1>
                                                 <p class="wow fadeInUp" data-wow-delay="0.2s">We provide expert fertility care, advanced treatments, and compassionate support to help you achieve your dream of parenthood.</p>
                                             </div>
                                             <!-- Section Title End -->
@@ -187,7 +187,7 @@
                             </div>
                             <div class="hero-info-body">
                                 <p>Book your IVF consultation today with our trusted fertility experts.</p>
-                                <h3><a href="tel:+2347056260569">+234 705 626 0569</a></h3>
+                                <h3><a href="tel:+2349025221711">+234 705 626 0569</a></h3>
                             </div>
                             <div class="hero-info-btn">
                                 <a href="contact.php" class="btn-default btn-highlighted">24/7 For Emergencies</a>
@@ -1050,7 +1050,7 @@
                                     <h3>Call Us:</h3>
                                 </div>
                                 <div class="cta-contact-item-content">
-                                    <p><a href="tel:+2347056260569">+2347056260569</a></p>
+                                    <p><a href="tel:+2349025221711">+2349025221711</a></p>
                                 </div>
                             </div>
                             <!-- Faqs Contact Item End -->
@@ -1469,7 +1469,7 @@
                                         <h3>Call Us:</h3>
                                     </div>
                                     <div class="cta-contact-item-content">
-                                        <p><a href="tel:254882963">+2347056260569</a></p>
+                                        <p><a href="tel:254882963">+2349025221711</a></p>
                                     </div>
                                 </div>
                                 <!-- Faqs Contact Item End -->
